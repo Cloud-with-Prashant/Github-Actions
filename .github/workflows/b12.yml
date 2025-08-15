@@ -6,5 +6,7 @@ jobs:
   build: 
     runs-on: ubuntu-latest 
     steps: 
-      - run: echo "Building the project" 
+      - run: sleep 5
+
+      - run: echo "Building the project"
   
