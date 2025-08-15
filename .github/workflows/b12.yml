@@ -1,0 +1,10 @@
+name: CI Workflow     # Workflow name 
+ 
+on: [push]            # Triggered on every push 
+ 
+jobs: 
+  build: 
+    runs-on: ubuntu-latest 
+    steps: 
+      - run: echo "Building the project" 
+  
